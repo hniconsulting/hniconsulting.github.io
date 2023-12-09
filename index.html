@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World</title>
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+
+    <script>
+
+        setTimeout(postMessageUsingWindow, 3000);
+
+        function postMessageUsingWindow() {
+            /// Channel Name Must be CammelCase
+            alert('helloWOrld');
+            window.channelName.postMessage('helloWOrld');
+        }
+    </script>
+</body>
+
+</html>
